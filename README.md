@@ -38,7 +38,7 @@ Give an example
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Add additional notes abut how to deploy this on a live system
 
 ## Built With
 
