@@ -1,0 +1,18 @@
+Repository
+
+
+The Central interface in the Spring Data repository abstraction is Repository. It takes the domain
+class to manage as well as the ID type of the domain class as type argument.
+This interface acts primarily as a marker interface to capture the types
+to work with to help you to discover interfaces that extend this one
+
+
+ Spring Data provides persistence technology-specific abstractions, such as JpaRepository or MongoRepository.
+ Those interfaces extend CrudRepository and expose the capabilities of the underlying
+ persistence technology in addition to the rather generic percictence technology-agnostic interfaces such as
+ CrudRepository
+
+ Auditing
+ Spring Data provides sophisticated support to transparently keep track of who created or changed an entity
+ and when the change happened. To benefit from that functionality, you have to equip your entity classes with auditing
+ metadata that can be defined either using annotations or by implementing an interface.
